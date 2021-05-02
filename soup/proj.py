@@ -30,7 +30,7 @@ stats = pd.DataFrame({'MatchDate':[], 'Week':[], 'HomeTeam':[], 'AwayTeam':[], \
                       })
                       
 if upperLimitFlag:
-    matchLinks2 = matchLinks[0:10]
+    matchLinks2 = matchLinks[0:100]
 else:
     matchLinks2 = matchLinks
 
