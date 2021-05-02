@@ -13,7 +13,7 @@ This scraper runs in two steps:
 scrapy crawl matchLinks -o matchLinks.csv
 ```
 The csv file must be named just like in this example, because it's used in the second step.
-1. Gather the data from matches websites
+2. Gather the data from matches websites
 ```python
 scrapy crawl getStats -o getStats.csv
 ```
