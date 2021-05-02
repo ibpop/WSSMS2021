@@ -22,7 +22,7 @@ matchLinks = []
 
 for link in driver.find_elements_by_xpath(matchLinksXpath):
     if upperLimitFlag:
-        if len(matchLinks) > 9:
+        if len(matchLinks) > 99:
             break
     matchLinks.append(link.get_attribute('href'))
     
