@@ -8,12 +8,12 @@ python3 proj.py
 
 ## Scrapy
 This scraper runs in two steps:
-l. Gather the links to matches websites
+1. Gather the links to matches websites
 ```python
 scrapy crawl matchLinks -o matchLinks.csv
 ```
 The csv file must be named just like in this example, because it's used in the second step.
-l. Gather the data from matches websites
+1. Gather the data from matches websites
 ```python
 scrapy crawl getStats -o getStats.csv
 ```
