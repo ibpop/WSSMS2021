@@ -30,7 +30,7 @@ stats = pd.DataFrame({'MatchDate':[], 'Week':[], 'HomeTeam':[], 'AwayTeam':[], \
                       })
                       
 if upperLimitFlag:
-    matchLinks2 = matchLinks[0:100]
+    matchLinks2 = matchLinks[0:10]
 else:
     matchLinks2 = matchLinks
 
@@ -119,5 +119,6 @@ for matchLink in matchLinks2:
     
 print(stats)
     
-stats.to_json('matchesStats.json')
+# stats.to_json('matchesStats.json')
+stats.to_csv('matchesStats.csv')
     
