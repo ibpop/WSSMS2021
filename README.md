@@ -11,6 +11,8 @@ python3 proj.py
 ```
 
 ## Scrapy
+Provided files are just the spiders. You need to copy it into the proper project and run it from it's directory.
+
 This scraper runs in two steps:
 1. Gather the links to matches websites
     ```python
@@ -21,7 +23,6 @@ This scraper runs in two steps:
     ```python
     scrapy crawl getStats -o matchStats.csv
     ```
-The provided files are just the spiders. You need to copy it into the proper project and run it from it's directory.
 
 ## Selenium
 To run the scraper just type
