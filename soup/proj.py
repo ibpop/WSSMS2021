@@ -121,13 +121,3 @@ print(stats)
     
 stats.to_json('matchesStats.json')
     
-    
-## testy
-matchLink = matchLinks[0]
-reqMatch = Request(matchLink, headers={'User-Agent':'Mozilla/5.0'} )
-htmlMatch = urlopen(reqMatch)
-bsMatch = BS(htmlMatch.read(), 'html.parser')
-    
-teamNames = bsMatch.find_all('strong', {'class':'name'})
-teamNames[0].get('text')
-print(teamNames)
