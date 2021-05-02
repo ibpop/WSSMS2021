@@ -21,6 +21,7 @@ This scraper runs in two steps:
     ```python
     scrapy crawl getStats -o matchStats.csv
     ```
+The provided files are just the spiders. You need to copy it into the proper project and run it from it's directory.
 
 ## Selenium
 To run the scraper just type
