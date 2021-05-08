@@ -5,6 +5,10 @@ Particularly from the English Premier League season 2019/2020. It can be found [
 In order to change the season or the league, you need to change the urls strings in the code.
 
 Script 'run_scraper.sh' measures the execution time of the selected scraper.
+To use it uncomment the part of the code with the scraper of your choice and execute
+```bash
+./run_scraper.sh
+```
 
 ## BeautifulSoup
 To run the scraper just type
