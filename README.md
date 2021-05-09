@@ -10,6 +10,8 @@ To use it uncomment the part of the code with the scraper of your choice and exe
 ./run_scraper.sh
 ```
 
+Remember that you should be in the proper directory to execute the scraper.
+
 ## BeautifulSoup
 To run the scraper just type
 ```python
