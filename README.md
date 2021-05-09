@@ -13,7 +13,7 @@ To use it uncomment the part of the code with the scraper of your choice and exe
 ## BeautifulSoup
 To run the scraper just type
 ```python
-python3 proj.py
+python3 getMatchStats.py
 ```
 
 ## Scrapy
